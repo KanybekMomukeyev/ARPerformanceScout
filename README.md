@@ -10,7 +10,7 @@
 
 ## How to get started
 
-- Download **ARPerfomanceScout** and try out the examples
+- [Download ARPerfomanceScout](https://github.com/ursachec/ARPerformanceScout/archive/0.0.1.zip) and try out the examples
 - Read this documentation
 
 
