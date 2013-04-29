@@ -90,8 +90,10 @@ Results in a log:
 
 ## Caveats
 
-- Users should be careful about retain-cycles in blocks (the [weakSelf code-snippet](https://github.com/mattt/Xcode-Snippets/blob/master/weakself.m) si a good friend to have.)
-- ARpS_measure() will only take into account work being done on the thread it's called
+- `ARpS` uses a block-based API so one should be careful about retain-cycles (the [weakSelf code-snippet](https://github.com/mattt/Xcode-Snippets/blob/master/weakself.m) is a good friend to have.)
+- `ARpS_measure()` will only take into account work being done on the thread it's called
+- `ARpS_startTimer()` and `ARpS_stopTimerAndLog()` don't work well (YET) when called on separate threads
+- `XCode's Time Profiler` is a more precise tool for performance bottleneck discovery. `ARPerformanceScout` is intended to be used with very short iteration cycles and as a guide only
 
 
 ## Contact
