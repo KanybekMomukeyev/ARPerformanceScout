@@ -8,6 +8,10 @@
 - Test performance when code execution jumps from one thread to another.
 - Experiment with multi-threaded programming.
 
+## Warning
+
+This tool is in the very early stages of the development, so things will break and do random crazy stuff. Still trying to get the API right and then push it in a single direction. If you have any ideas, opinions or rants [I'd love to hear them](https://github.com/ursachec/ARPerformanceScout#contact)!
+
 ## How to get started
 
 - [Download ARPerfomanceScout](https://github.com/ursachec/ARPerformanceScout/archive/0.0.1.zip) and try out the examples
